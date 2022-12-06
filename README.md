@@ -9,7 +9,7 @@
 2. Open debug tab on VScode and run "Run Debug"
 
 3. Error:
-   ```
+   ```sh
    /home/tailt/.nvm/versions/node/v19.1.0/bin/node -r /home/tailt/Workspace/projects/private-projects/test-tsconfig-paths-tsoa-bugs/node_modules/ts-node/register -r /home/tailt/Workspace/projects/private-projects/test-tsconfig-paths-tsoa-bugs/node_modules/tsconfig-paths/register ./dist/index.js
 /home/tailt/Workspace/projects/private-projects/test-tsconfig-paths-tsoa-bugs/src/controllers/ping.controller.ts:9
   @Get("/")

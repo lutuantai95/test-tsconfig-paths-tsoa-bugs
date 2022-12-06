@@ -1,4 +1,4 @@
-## Build from source
+## Build and see error
 
 1. Install dependencies.
 
@@ -6,11 +6,7 @@
    npm install
    ```
 
-2. Open debug tab on VScode and run "
-
-   ```sh
-   npm build
-   ```
+2. Open debug tab on VScode and run "Run Debug"
 
 3. Error:
    ```
@@ -32,5 +28,3 @@ TypeError: (0 , tsoa_1.Get) is not a function
 Process exited with code 1
 
    ```
-
-

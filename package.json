@@ -1,17 +1,13 @@
 {
-   "name": "express-typescript",
+   "name": "test-tsconfig-paths-tsoa-bugs",
    "version": "1.1.1",
    "description": "",
-   "main": "index.js",
+   "main": "src/index.ts",
    "scripts": {
       "prod": "node dist/index.js",
       "prebuild": "npm run swagger",
       "build": "ts-node -r tsconfig-paths/register src/index.ts",
       "swagger": "tsoa spec"
-   },
-   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rsbh/express-typescript.git"
    },
    "keywords": [],
    "author": "",
